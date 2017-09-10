@@ -23,6 +23,7 @@ header {
   font-size: 22px;
   height: 69px;
   width: 100%;
+  font-family: Helvetica;
 
   position:fixed;
   z-index: 5;
@@ -47,6 +48,7 @@ nav span {
 nav span a {
   color: seashell;
   text-decoration:underline;
+  font-family: Helvetica;
 }
 
 .topcontent {
@@ -71,6 +73,7 @@ nav span a {
   background-color: black;
   text-align:center;
   font-weight bold;
+  font-family: Helvetica;
   width: 100%;
   font-size: 28px;
   position:absolute;
@@ -90,7 +93,7 @@ nav span a {
   margin:auto;
   padding: 66px 0;
   text-align: center;
-
+  font-family: Helvetica;
 
 }
 
@@ -138,6 +141,7 @@ nav span a {
   font-weight: 400;
   padding-bottom: 15px;
   font-size: 28px;
+  font-family: Helvetica;
 }
 
 .location {
@@ -148,12 +152,15 @@ padding: 15px;
 margin: 5px 20px;
 background-color: black;
 flex-basis: 280px;
+font-family: Helvetica;
 text-align: center;
+opacity: 1;
 
 }
 
 .location h3 {
-  font-size: 22px;
+  font-size: 26px;
+  font-weight: 400;
 }
 
 .footer {
@@ -162,6 +169,7 @@ text-align: center;
   padding: 3px 0;
   min-width: 300px;
   text-align: center;
+  font-family: Helvetica;
 }
 
 .footer h2 {
@@ -177,4 +185,5 @@ text-align: center;
 
 .copyright {
   font-size: 15px;
+  font-family: Helvetica;
 }
