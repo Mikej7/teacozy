@@ -21,7 +21,8 @@ header {
   background-color:black;
   font-size: 22px;
   height: 69px;
-  width: 100%;
+  width: 1200px;
+  margin: 0 auto;
 
 
   position:fixed;
