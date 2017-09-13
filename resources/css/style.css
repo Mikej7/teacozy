@@ -1,18 +1,17 @@
-<! ---main css file  -->
+/* ---main css file  --  */
 
 body {
   opacity: 0.9;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   font-family: Helvetica;
   font-size: 22;
   color: seashell;
   background-color: black;
-
+  width: 1200px;
 }
 html {
-  background-color: black;
-  color: seashell;
+
 }
 header {
   display: flex;
@@ -23,7 +22,7 @@ header {
   font-size: 22px;
   height: 69px;
   width: 100%;
-  font-family: Helvetica;
+
 
   position:fixed;
   z-index: 5;
@@ -48,7 +47,7 @@ nav span {
 nav span a {
   color: seashell;
   text-decoration:underline;
-  font-family: Helvetica;
+
 }
 
 .topcontent {
@@ -66,19 +65,16 @@ nav span a {
   background-size:cover;
   height: 700px;
   width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
  .topimgheadline {
 
   background-color: black;
-  text-align:center;
-  justify-content: center;
-  font-weight bold;
-  font-family: Helvetica;
   width: 100%;
   font-size: 28px;
-  position:absolute;
-  bottom: 140px;
   padding: 10px 10px 0 10px;
 
 
@@ -90,11 +86,14 @@ nav span a {
 
 .featuredcontent {
   height: auto;
-  width: 1000px;
+  width: 100%;
   margin:auto;
   padding: 66px 0;
   text-align: center;
-  font-family: Helvetica;
+  font-family: helvetica;
+  background-color: black;
+
+
 
 }
 
@@ -125,7 +124,8 @@ nav span a {
   background-image: url(../images/img-locations-background.jpg);
   background-size: cover;
   background-position: left bottom;
-
+  font-family: helvetica;
+  color: seashell;
 }
 
 .locations {
@@ -133,17 +133,16 @@ nav span a {
   justify-content: center;
   flex-wrap: wrap;
   padding-top: 5px;
+  color: seashell;
 
 }
 
 .bottomcontent h2 {
   text-align:center;
-  color: seashell;
   font-weight: 400;
   padding-bottom: 15px;
   font-size: 28px;
-  font-family: Helvetica;
-}
+  }
 
 .location {
 display: flex;
@@ -153,7 +152,6 @@ padding: 15px;
 margin: 5px 20px;
 background-color: black;
 flex-basis: 280px;
-font-family: Helvetica;
 text-align: center;
 opacity: 1;
 
@@ -166,11 +164,14 @@ opacity: 1;
 
 .footer {
   height: 200px;
-  margin-top: 70px;
+
   padding: 3px 0;
   min-width: 300px;
   text-align: center;
-  font-family: Helvetica;
+  background-color: black;
+  color:seashell;
+  font-family: helvetica;
+
 }
 
 .footer h2 {
@@ -185,6 +186,10 @@ opacity: 1;
 }
 
 .copyright {
+  display: flex;
+  margin: 0 auto;
   font-size: 15px;
-  font-family: Helvetica;
+  font-family: helvetica;
+  background-color: black;
+  color: seashell;
 }
